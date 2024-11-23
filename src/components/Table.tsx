@@ -36,7 +36,7 @@ const Table: React.FC = () => {
 				}));
 				setProjects(formattedProjects);
 			} catch (error) {
-				alert(`Error fetching projects:${error}`);
+				alert(`Error in loading Data: ${error}`);
 			} finally {
 				setLoading(false);
 			}
