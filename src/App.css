@@ -99,7 +99,7 @@ h1 {
 	background-color: white;
 	.paginator__btnContainer {
 		border-radius: 8px;
-		border: 1px #ddd solid;
+		border: 2px #ddd solid;
 		width: auto;
 		overflow: hidden;
 	}
